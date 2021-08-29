@@ -14,3 +14,19 @@ $("#2pm").children(".description").val(localStorage.getItem("2pm"));
 $("#3pm").children(".description").val(localStorage.getItem("3pm"));
 $("#4pm").children(".description").val(localStorage.getItem("4pm"));
 $("#5pm").children(".description").val(localStorage.getItem("5pm"));
+
+var currenttime = moment().format('MMMM Do YYYY');
+$("#currentDay").text(currenttime);
+
+$(".time-block").each(function() {
+    var currenthour = moment().hours()
+    var time = $(this).attr("id")
+    //convert time to 24 hr format
+    if (time<currenthour) {
+        $(this).children(".description").addClass('past');
+    } else if (time == currenthour) {
+        $(this).children(".description").addClass('present');
+    } else {
+        $(this).children(".description").addClass('future');
+    }
+})
