@@ -22,9 +22,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-### Screenshot
+### Screenshots
 
-
+<img width="1154" alt="Screen Shot 2021-08-29 at 8 13 45 AM" src="https://user-images.githubusercontent.com/44761233/131255540-aa683e83-2fa9-4102-8efe-1901dad7926e.png">
 
 
 ### Deployed link
