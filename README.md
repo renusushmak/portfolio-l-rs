@@ -1,3 +1,4 @@
+
 # Work Day Scheduler
 ### User Story
 ```
@@ -24,8 +25,7 @@ THEN the saved events persist
 
 ### Screenshots
 
-<img width="1154" alt="Screen Shot 2021-08-29 at 8 13 45 AM" src="https://user-images.githubusercontent.com/44761233/131255540-aa683e83-2fa9-4102-8efe-1901dad7926e.png">
-
+<img width="1167" alt="Screen Shot 2021-08-29 at 8 30 36 AM" src="https://user-images.githubusercontent.com/44761233/131256114-0170a30f-8282-424f-bac6-f048c68c7cac.png">
 
 ### Deployed link
 https://renusushmak.github.io/workday-scheduler-krs/
