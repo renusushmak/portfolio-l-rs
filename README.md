@@ -28,4 +28,4 @@ THEN the saved events persist
 <img width="1167" alt="Screen Shot 2021-08-29 at 8 30 36 AM" src="https://user-images.githubusercontent.com/44761233/131256114-0170a30f-8282-424f-bac6-f048c68c7cac.png">
 
 ### Deployed link
-https://renusushmak.github.io/workday-scheduler-krs/
+https://renusushmak.github.io/portfolio-l-rs/ 

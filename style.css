@@ -1,71 +1,163 @@
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
+body{
+    background-color: #FFF8DC;
+    color: black;
+    font-size: large;
+    font-family: Palatino, URW Palladio L, serif;
+    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
 }
 
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+.caption1{
+    background-color: #2F4F4F;
+    text-shadow: 5px 2px black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px 10px tan;
+    color: rgb(255,255,255);
 }
 
-.jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: black;
-  border-radius: 0;
-  border-bottom: 10px solid black;
+.desc{
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px rgb(224, 210, 192);
+    box-sizing: border-box;
+    width: 60%;
+    float: left;
+    font-size: x-large;
+    color: black
 }
 
-.description{
-  white-space: pre-wrap;
+.desc1{
+    text-align: center;
+    font-size: large;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px 1px tan;
+    text-shadow: 2px 3px rgb(10, 6, 0);
+    box-sizing: border-box;
+    width: 60%;
+    float: right;
 }
 
-.time-block{
-  text-align: center;
-  border-radius: 15px;
+.abtdesc{
+    text-align: right;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+#header{ 
+    background-color: tan;
+    height: 2px;
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px tan;
+    text-shadow: 2px 3px rgb(14, 8, 1);
+    box-sizing: border-box;
+    width: 90%; 
 }
 
-.hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+#top-nav{
+    float: right;
 }
 
-.past {
-  background-color: #88a9c5;
-  color: white;
+#nav-bottom{
+    float: left;
 }
 
-.present {
-  background-color: #e99a96;
-  color: white;
+#index-hr{
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px 5px tan;
+    text-shadow: 1px 1px rgb(31, 18, 2);
+    box-sizing: border-box;
+    width: 60%; 
+    font-size: xx-large;
+    color: azure;
 }
 
-.future {
-  background-color: #a1cfa1;
-  color: white;
+table{
+    color: whitesmoke;
+    font-size: large;
+    font-family: monospace;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+footer{
+    font-size: small;
+    text-align: right;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all .3s ease-in-out;
+ul{
+    font-size: medium
 }
+
+.video-desc{
+    column-rule-color: tan;
+    column-count: 2;
+    column-rule-style: dotted;
+}
+
+@media screen and ( max-width: 800px ) {
+.small-menu { display: inline; }
+.large-menu { display: inline-flex; }
+}
+@media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
+.small-menu { display: none; }.
+.large-menu {
+display:inline;
+width: 100%;
+}
+.large-menu ul { list-style-type: none; }
+.large-menu ul li { display: inline; }
+.content: { width: 100%; }
+}
+@media screen and ( min-width: 1025px ) {
+.small-menu { display: none; }
+.large-menu {
+display: inline;
+float: left;
+width: 80%;
+}
+.content{
+float: right;
+width: 80%;
+}
+}
+
+.flex-box-JD {
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+-webkit-align-content: stretch;
+align-content: stretch;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content:space-around;
+margin: 80px;
+width: 1200px;
+height: 1200px;
+background-color: cornsilk;
+}
+.flex-job {
+background-color: tan;
+color: black;
+width: 900px;
+height: 400px;
+flex-grow: 1
+}
+.first:first-letter{color: red; font-size: 2em}
+li:nth-child(2){color: orange; font-weight : bold}
+li:last-child { border-bottom: 1px; color: darkgreen}
+
+a:link {
+    background-color: #2F4F4F;
+    color: white;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+a:visited {
+    text-transform: capitalize;
+    color: #FF7F50;
+    font-weight: 300;
+}
+a:hover{
+    text-transform: uppercase;
+    font-weight: bold, italic;
+    background-color: #D2691E;
+    color: #FFFF00;
+}
+a:active{color: white}
