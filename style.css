@@ -1,9 +1,9 @@
 body{
     background-color: #FFF8DC;
     color: black;
-    font-size: large;
+    font-size: medium;
     font-family: Palatino, URW Palladio L, serif;
-    background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+    background: -webkit-linear-gradient(top, #FFFFFF, #006699) no-repeat;
 }
 
 .caption1{
@@ -22,7 +22,7 @@ body{
     width: 60%;
     float: left;
     font-size: x-large;
-    color: black
+    color: white
 }
 
 .desc1{
@@ -52,6 +52,7 @@ body{
 
 #top-nav{
     float: right;
+    font-size: small;
 }
 
 #nav-bottom{
@@ -60,12 +61,12 @@ body{
 
 #index-hr{
     border-radius: 3px;
-    box-shadow: 5px 5px 5px 5px tan;
+    box-shadow: 5px 5px 5px 5px #006699;
     text-shadow: 1px 1px rgb(31, 18, 2);
     box-sizing: border-box;
     width: 60%; 
-    font-size: xx-large;
-    color: azure;
+    font-size: x-large;
+    color: black;
 }
 
 table{
@@ -127,16 +128,17 @@ align-content: stretch;
 align-items: center;
 -webkit-justify-content:space-around;
 margin: 80px;
-width: 1200px;
-height: 1200px;
+width: 1000px;
+height: 1400px;
 background-color: cornsilk;
 }
 .flex-job {
-background-color: tan;
+background-color: cornsilk;
+margin: 80px;
 color: black;
 width: 900px;
-height: 400px;
-flex-grow: 1
+height: 200px;
+flex-grow: 3
 }
 .first:first-letter{color: red; font-size: 2em}
 li:nth-child(2){color: orange; font-weight : bold}
