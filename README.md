@@ -1,31 +1,45 @@
 
-# Work Day Scheduler
-### User Story
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-### Acceptance Criteria
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
 
-### Screenshots
+### Portfolio:
+A professional portfolio page to spotlight my work as a full stack web deeloper for potential employers.
 
-<img width="1167" alt="Screen Shot 2021-08-29 at 8 30 36 AM" src="https://user-images.githubusercontent.com/44761233/131256114-0170a30f-8282-424f-bac6-f048c68c7cac.png">
+
+
+User Story:
+AS AN employer:
+
+I WANT to view a potential employee's deployed portfolio of work samples So That I can review samples of their work and assess whether they're a good candidate for an open position
+
+
+
+Acceptance Criteria:
+GIVEN I need to sample a potential employee's previous work
+
+WHEN I load their portfolio THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
+
+WHEN I click one of the links in the navigation THEN the UI scrolls to the corresponding section
+
+WHEN I click on the link to the section about their work THEN the UI scrolls to a section with titled images of the developer's applications
+
+WHEN I am presented with the developer's first application THEN that application's image should be larger in size than the others
+
+WHEN I click on the images of the applications THEN I am taken to that deployed application
+
+WHEN I resize the page or view the site on various screens and devices Then i am presented with a repsonsive layout that adapts to my viewport
+
+
+
+### Technologies Used:
+HTML5
+CSS3
+Flexbox
+@Media queries
+
+
+
+### GitHub repository: 
+https://github.com/renusushmak/portfolio-l-rs
+
 
 ### Deployed link
 https://renusushmak.github.io/portfolio-l-rs/ 
