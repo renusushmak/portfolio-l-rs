@@ -35,6 +35,10 @@ CSS3
 Flexbox
 @Media queries
 
+### Screenshots:
+![Renu portfolio](https://user-images.githubusercontent.com/44761233/132707493-fe5335cf-82f1-47fb-aacf-81d445c44eae.gif)
+
+<img width="1081" alt="responsive-pf" src="https://user-images.githubusercontent.com/44761233/132707463-0915dd1e-4bc4-4fba-ad8b-cf0ee60e3235.png">
 
 
 ### GitHub repository: 
