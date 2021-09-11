@@ -1,7 +1,7 @@
 
 
 ### Portfolio:
-A professional portfolio page to spotlight my work as a full stack web deeloper for potential employers.
+A professional portfolio page to spotlight my work as a full stack web developer for potential employers.
 
 
 
